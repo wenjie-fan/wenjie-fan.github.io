@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Wenjie Fan</title>
+    <link>https://wenjie-fan.github.io/posts/</link>
+    <description>Recent content in Projects on Wenjie Fan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://wenjie-fan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probabilistic Principal Component Analysis for Replicated Data in Proteomics</title>
+      <link>https://wenjie-fan.github.io/posts/replicateppca/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenjie-fan.github.io/posts/replicateppca/</guid>
+      <description>Principal component analysis (PCA) is frequently used for the visualization and unsupervised clustering of mass spectrometry (MS) proteomics data. However, there is no intuitive method to handle missing values, and the intricate structure of experimental design is often neglected. A typical example is data from biological experiments with replicate structure, which displays both variations and correlations among replicates, and suffers from incomplete observations. Probabilistic principal component analysis (PPCA) recovers missing</description>
+    </item>
+    
+    <item>
+      <title>Oscillatory Neck Propagation in Polymer Films</title>
+      <link>https://wenjie-fan.github.io/posts/polymer/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenjie-fan.github.io/posts/polymer/</guid>
+      <description>Imagine stretching a long strip of PET, often the plastic deformation is violent, and the sample just breaks. However, sometimes the film can be stretched for more than 2 times in length, and the stress actually oscillates. The obvious manifestation is a pattern consists of opaque and translucent stripes, shown as the gif on the right. This region is what we called &amp;ldquo;neck&amp;rdquo;, which has smaller width and thickness than</description>
+    </item>
+    
+    <item>
+      <title>Personal Static Website</title>
+      <link>https://wenjie-fan.github.io/posts/website/</link>
+      <pubDate>Tue, 30 Aug 2022 00:18:23 +0800</pubDate>
+      
+      <guid>https://wenjie-fan.github.io/posts/website/</guid>
+      <description>Unlike dynamic sites, static websites are easier to build and maintain. In construction, one uses MarkDown files for pages, and YAML for configuration files. Some of the codes require HTML, e.g. adjusting the images. Hugo will generates all the files into HTML for publish. After construction, one needs deployment to publish, either by GitHub page, or services like Netlify. Static websites would be troublesome in updating, or realising some functions</description>
+    </item>
+    
+    <item>
+      <title>Restricted Three-Body Systems</title>
+      <link>https://wenjie-fan.github.io/posts/three_body/</link>
+      <pubDate>Sat, 12 Sep 2020 00:18:23 +0800</pubDate>
+      
+      <guid>https://wenjie-fan.github.io/posts/three_body/</guid>
+      <description>The three-body problem is one of the most well-known problems in classic mechanics, which has no closed form solutions. However, when we assume that the third body is much smaller in mass than the other stars, it would be much easier for us to investigate more properties including the trajectory. This is a tiny project when just graduating from high school. During the project we analysed the forbidden region and</description>
+    </item>
+    
+  </channel>
+</rss>
