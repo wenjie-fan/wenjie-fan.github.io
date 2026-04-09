@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Wenjie Fan</title>
+    <link>https://wenjie-fan.github.io/posts/</link>
+    <description>Recent content in Projects on Wenjie Fan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://wenjie-fan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trajectory-Conditioned Modelling of Single-Cell Expression</title>
+      <link>https://wenjie-fan.github.io/posts/sctnt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenjie-fan.github.io/posts/sctnt/</guid>
+      <description>&lt;br/&gt;
+&lt;figure&gt;
+    &lt;img align=&#34;right&#34; src=&#34;differentiation.png&#34; style=&#34;width: 340px; margin: 0px 0px 5px 20px;&#34; class=&#34;img_floats&#34; /&gt;
+&lt;figure&gt;
+&lt;p&gt;Foundation models for single-cell transcriptomics learn cell representations from millions of profiles, but are commonly pretrained on unordered cells and therefore do not explicitly condition on cell history. We introduce single-cell Transformer-iN-Transformer (scTNT), which conditions gene-expression reconstruction on inferred trajectories, represented here as ordered cell sequences. scTNT combines a frozen reduced-layer scGPT autoencoder with a trainable decoder-only transformer over sequences of latent cell embeddings and is trained by masked gene-expression reconstruction. On a CD8 T-cell exhaustion dataset with optimal transport-derived cell sequences, scTNT improves masked reconstruction relative to the scGPT baseline and outperforms alternative sequence backbones under con- trolled evaluations. We further propose a gradient-based gene-history attribution pipeline and apply TRRUST regulon enrichment to generate hypotheses about context-associated regulatory programs.
+&lt;br/&gt; &lt;br/&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1FzGvaS7rTAN3KOOIxyCeFbbsJQF-l9xq/view?usp=drive_link&#34;&gt;&lt;strong&gt;ICLR workshop 2026&lt;/strong&gt;&lt;/a&gt;    &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Principal Component Analysis for Replicated Data in Proteomics</title>
+      <link>https://wenjie-fan.github.io/posts/replicateppca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenjie-fan.github.io/posts/replicateppca/</guid>
+      <description>&lt;br/&gt;
+&lt;figure&gt;
+    &lt;img align=&#34;right&#34; src=&#34;emPPCA.jpg&#34; style=&#34;width: 340px; margin: 0px 0px 5px 20px;&#34; class=&#34;img_floats&#34; /&gt;
+&lt;figure&gt;
+&lt;p&gt;Principal component analysis (PCA) is frequently used for the visualization and unsupervised clustering of mass spectrometry (MS) proteomics data. However, there is no intuitive method to handle missing values, and the intricate structure of experimental design is often neglected. A typical example is data from biological experiments with replicate structure, which displays both variations and correlations among replicates, and suffers from incomplete observations. Probabilistic principal component analysis (PPCA) recovers missing values soundly within a probabilistic framework, yet it still overlooks the replicate-wise variations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Oscillatory Neck Propagation in Polymer Films</title>
+      <link>https://wenjie-fan.github.io/posts/polymer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenjie-fan.github.io/posts/polymer/</guid>
+      <description>&lt;br/&gt;
+&lt;figure&gt;
+    &lt;img align=&#34;right&#34; src=&#34;polymer.gif&#34; style=&#34;width: 330px; margin: 0px 0px 5px 20px;&#34; class=&#34;img_floats&#34; /&gt;
+&lt;figure&gt;
+&lt;p&gt;Imagine stretching a long strip of PET, often the plastic deformation is violent, and the sample just breaks. &lt;br/&gt; &lt;br/&gt;
+However, sometimes the film can be stretched for more than 2 times in length, and the stress actually oscillates. The obvious manifestation is a pattern consists of opaque and translucent stripes, shown as the gif on the right. This region is what we called &amp;ldquo;neck&amp;rdquo;, which has smaller width and thickness than the undeformed part. Our main purpose is to predict the stress-strain curve when stretching a polymer film, as well as for which parameters there will be such an oscillation.
+&lt;br/&gt; &lt;br/&gt;
+The following report will include the model and the numerical scheme to this problem. &lt;br/&gt;
+The slides (extracting from the report) are used to present findings and propose future experiments to &lt;a href=&#34;https://warwick.ac.uk/fac/sci/wmg/people/profile?id=1271420&#34;&gt;Dr. Chaoying Wan&lt;/a&gt;, Warwick Manufacturing Group.
+&lt;br/&gt; &lt;br/&gt;
+&lt;a href=&#34;https://wenjie-fan.github.io/posts/polymer/Refinements_on_a_novel_model_for_oscillatory_neck_propagation_in_polymer_films.pdf&#34;&gt;&lt;strong&gt;Project Report&lt;/strong&gt;&lt;/a&gt;     &lt;a href=&#34;https://wenjie-fan.github.io/posts/polymer/slides.pdf&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/a&gt;
+&lt;br/&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

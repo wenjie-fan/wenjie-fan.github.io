@@ -1,12 +1,12 @@
 ---
 title: "Personal Static Website"
-date: 2022-08-30T00:18:23+08:00
+date:
 description: ""
 hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 ShowReadingTime: false
 description: ""
 slug: ""
-draft: false # 是否为草稿
+draft: true # archived
 disableShare: true # 底部不显示分享栏
 cover:
     image: "img/Boarder.gif" #图片路径：posts/tech/123/123.png

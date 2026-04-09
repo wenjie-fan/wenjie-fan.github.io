@@ -1,6 +1,6 @@
 ---
 title: "Oscillatory Neck Propagation in Polymer Films"
-date: 2022-09-16
+date:
 description: ""
 hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 ShowReadingTime: false
@@ -28,6 +28,6 @@ The slides (extracting from the report) are used to present findings and propose
 [**Project Report**](Refinements_on_a_novel_model_for_oscillatory_neck_propagation_in_polymer_films.pdf) &nbsp; &nbsp; [**Slides**](slides.pdf)
 <br/> 
 ___
-This is a summer project supervised by [Prof. Ed Brambley](https://homepages.warwick.ac.uk/staff/E.J.Brambley/) from the University of Warwick. I'm very grateful to him for his enthusiastic and responsible supervision on the project.
+This is a summer project supervised by [Prof. Ed Brambley](https://ejbrambley.warwick.ac.uk/) from the University of Warwick. I'm very grateful to him for his enthusiastic and responsible supervision on the project.
 
 {{< figure align=center src="with_Ed.jpeg" width="500" caption="Photo with Prof. Ed Brambley">}}

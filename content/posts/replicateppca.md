@@ -1,6 +1,6 @@
 ---
 title: "Probabilistic Principal Component Analysis for Replicated Data in Proteomics"
-date: 2023-09-28
+date:
 description: ""
 hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 ShowReadingTime: false
@@ -9,7 +9,7 @@ slug: ""
 draft: false # 是否为草稿
 disableShare: true # 底部不显示分享栏
 cover:
-    image: "img/emPPCA.pdf" #图片路径：posts/tech/123/123.png
+    image: "img/emPPCA.jpg" #图片路径：posts/tech/123/123.png
     caption: "" #图片底部描述
     alt: ""
     relative: false
@@ -17,7 +17,7 @@ weight: 5
 ---
 <br/>
 <figure>
-    <img align="right" src="emPPCA.pdf" style="width: 340px; margin: 0px 0px 5px 20px;" class="img_floats" />
+    <img align="right" src="emPPCA.jpg" style="width: 340px; margin: 0px 0px 5px 20px;" class="img_floats" />
 <figure>
 
 Principal component analysis (PCA) is frequently used for the visualization and unsupervised clustering of mass spectrometry (MS) proteomics data. However, there is no intuitive method to handle missing values, and the intricate structure of experimental design is often neglected. A typical example is data from biological experiments with replicate structure, which displays both variations and correlations among replicates, and suffers from incomplete observations. Probabilistic principal component analysis (PPCA) recovers missing values soundly within a probabilistic framework, yet it still overlooks the replicate-wise variations. 
@@ -27,8 +27,8 @@ In this study, we extend PPCA to be conscious of the replicated model for MS dat
 [**Report**](https://drive.google.com/file/d/1EsX1yQZZN1iXGRjbkQOIjj3y7H-gD_zo/view?usp=share_link) &nbsp; &nbsp;
 [**Github**](https://github.com/wenjie-fan/replicatePPCA) &nbsp; &nbsp; 
 <br/> <br/>
-**Vignettes:** &nbsp; [EM algorithm](emPPCA_examples.html) &nbsp; [MCMC]()
+**Vignettes:** &nbsp; [EM algorithm](/emPPCA_examples.html)
 
 ---
 
-This is an on-going summer project supervised by [Dr. Oliver Crook](https://olivercrook.co.uk) from the University of Oxford.
+This is a project supervised by [Dr. Oliver Crook](https://olivercrook.co.uk) from the University of Oxford.

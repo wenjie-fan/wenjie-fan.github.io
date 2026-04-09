@@ -1,4 +1,5 @@
 baseURL: "https://wenjie-fan.github.io"
+publishDir: "docs"
 languageCode: en-us
 title: Wenjie Fan
 theme: PaperMod
@@ -17,7 +18,8 @@ buildExpired: false
 # googleAnalytics: UA-123-45 # 谷歌统计
 # Copyright: Wenjie Fan
 
-paginate: 5    # 每页显示的文章数
+pagination:
+    pagerSize: 5    # 每页显示的文章数
 
 minify:
     disableXML: true
@@ -35,21 +37,22 @@ languages:
       languageName: "English"
       # contentDir: content/english
       weight: 1
-      profileMode:
-        enabled: true
-        title: Wenjie Fan
-        subtitle: "Final-year Mathematics & Statistics @ Oxford"
-        imageUrl: "self4.jpg"
-        imageTitle: 
-        imageWidth: 200
-        imageHeight: 200
-        buttons:
-          - name: About
-            url: about
-          - name: Projects
-            url: posts
-          - name: CV
-            url: about/wenjiefan_cv.pdf
+      params:
+        profileMode:
+          enabled: true
+          title: Wenjie Fan
+          subtitle: "Final-year Mathematics & Statistics @ Oxford"
+          imageUrl: "konstanz_self.JPG"
+          imageTitle:
+          imageWidth: 200
+          imageHeight: 200
+          buttons:
+            - name: About
+              url: about
+            - name: Projects
+              url: posts
+            # - name: CV
+            #   url: about/wenjiefan_cv.pdf
       menu:
         main:
           - identifier: home
@@ -109,12 +112,12 @@ params:
     socialIcons:
         - name: linkedin
           url: "https://www.linkedin.com/in/wenjie-fan-9632591b8"
-        - name: twitter
-          url: "https://twitter.com/wenjie_fan"
+        - name: googlescholar
+          url: "https://scholar.google.com/citations?user=vIaGJqwAAAAJ&hl=en"
         - name: github
           url: "https://github.com/wenjie-fan"
         - name: email
-          url: "mailto:wenjie.fan@keble.ox.ac.uk"
+          url: "mailto:wenjie.fan@tuebingen.mpg.de"
 
     # editPost:
     #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
@@ -186,7 +189,7 @@ privacy:
         disabled: false
         simple: true
 
-    twitter:
+    x:
         disabled: false
         enableDNT: true
         simple: true
@@ -202,5 +205,5 @@ privacy:
 services:
     instagram:
         disableInlineCSS: true
-    twitter:
+    x:
         disableInlineCSS: true

@@ -100,9 +100,28 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .entry-cover {
     overflow: hidden;
     padding-left: 18px;
-    height: 100%;
+    height: 200px;
     width: 50%;
     margin-bottom: unset;
+}
+
+.entry-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* === Home profile image cropping ===
+   - object-position: horizontal% vertical% (0%=left/top, 50%=center, 100%=right/bottom)
+   - object-view-box: zoom into image inside the circle
+     inset(top right bottom left) — larger values = more zoom
+     e.g. inset(10% 10% 10% 10%) crops 10% from each edge
+*/
+.profile_inner img {
+    object-fit: cover;
+    object-position: 50% 80%;       /* left-right% top-bottom% */
+    object-view-box: inset(25% 30% 15% 0%);  /* top right bottom left — increase to zoom in */
+    border-radius: 50%;
 }
 
 .post-info {
