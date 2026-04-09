@@ -16,8 +16,8 @@
       <description>&lt;br/&gt;
 &lt;figure&gt;
     &lt;img align=&#34;right&#34; src=&#34;differentiation.png&#34; style=&#34;width: 340px; margin: 0px 0px 5px 20px;&#34; class=&#34;img_floats&#34; /&gt;
-&lt;figure&gt;
-&lt;p&gt;Foundation models for single-cell transcriptomics learn cell representations from millions of profiles, but are commonly pretrained on unordered cells and therefore do not explicitly condition on cell history. We introduce single-cell Transformer-iN-Transformer (scTNT), which conditions gene-expression reconstruction on inferred trajectories, represented here as ordered cell sequences. scTNT combines a frozen reduced-layer scGPT autoencoder with a trainable decoder-only transformer over sequences of latent cell embeddings and is trained by masked gene-expression reconstruction. On a CD8 T-cell exhaustion dataset with optimal transport-derived cell sequences, scTNT improves masked reconstruction relative to the scGPT baseline and outperforms alternative sequence backbones under con- trolled evaluations. We further propose a gradient-based gene-history attribution pipeline and apply TRRUST regulon enrichment to generate hypotheses about context-associated regulatory programs.
+&lt;/figure&gt;
+&lt;p&gt;Foundation models for single-cell transcriptomics learn cell representations from millions of profiles, but are commonly pretrained on unordered cells and therefore do not explicitly condition on cell history. We introduce single-cell Transformer-iN-Transformer (scTNT), which conditions gene-expression reconstruction on inferred trajectories, represented here as ordered cell sequences. scTNT combines a frozen reduced-layer scGPT autoencoder with a trainable decoder-only transformer over sequences of latent cell embeddings and is trained by masked gene-expression reconstruction. On a CD8 T-cell exhaustion dataset with optimal transport-derived cell sequences, scTNT improves masked reconstruction relative to the scGPT baseline and outperforms alternative sequence backbones under controlled evaluations. We further propose a gradient-based gene-history attribution pipeline and apply TRRUST regulon enrichment to generate hypotheses about context-associated regulatory programs.
 &lt;br/&gt; &lt;br/&gt;
 &lt;a href=&#34;https://drive.google.com/file/d/1FzGvaS7rTAN3KOOIxyCeFbbsJQF-l9xq/view?usp=drive_link&#34;&gt;&lt;strong&gt;ICLR workshop 2026&lt;/strong&gt;&lt;/a&gt;    &lt;/p&gt;</description>
     </item>
@@ -31,7 +31,7 @@
       <description>&lt;br/&gt;
 &lt;figure&gt;
     &lt;img align=&#34;right&#34; src=&#34;emPPCA.jpg&#34; style=&#34;width: 340px; margin: 0px 0px 5px 20px;&#34; class=&#34;img_floats&#34; /&gt;
-&lt;figure&gt;
+&lt;/figure&gt;
 &lt;p&gt;Principal component analysis (PCA) is frequently used for the visualization and unsupervised clustering of mass spectrometry (MS) proteomics data. However, there is no intuitive method to handle missing values, and the intricate structure of experimental design is often neglected. A typical example is data from biological experiments with replicate structure, which displays both variations and correlations among replicates, and suffers from incomplete observations. Probabilistic principal component analysis (PPCA) recovers missing values soundly within a probabilistic framework, yet it still overlooks the replicate-wise variations.&lt;/p&gt;</description>
     </item>
     
@@ -44,7 +44,7 @@
       <description>&lt;br/&gt;
 &lt;figure&gt;
     &lt;img align=&#34;right&#34; src=&#34;polymer.gif&#34; style=&#34;width: 330px; margin: 0px 0px 5px 20px;&#34; class=&#34;img_floats&#34; /&gt;
-&lt;figure&gt;
+&lt;/figure&gt;
 &lt;p&gt;Imagine stretching a long strip of PET, often the plastic deformation is violent, and the sample just breaks. &lt;br/&gt; &lt;br/&gt;
 However, sometimes the film can be stretched for more than 2 times in length, and the stress actually oscillates. The obvious manifestation is a pattern consists of opaque and translucent stripes, shown as the gif on the right. This region is what we called &amp;ldquo;neck&amp;rdquo;, which has smaller width and thickness than the undeformed part. Our main purpose is to predict the stress-strain curve when stretching a polymer film, as well as for which parameters there will be such an oscillation.
 &lt;br/&gt; &lt;br/&gt;
@@ -63,7 +63,7 @@ The slides (extracting from the report) are used to present findings and propose
       <guid>https://wenjie-fan.github.io/about/</guid>
       <description>&lt;figure&gt;
 &lt;img src=&#34;self2.jpg&#34; class=&#34;img_floats&#34; align=&#34;left&#34; style=&#34;width: 260px; height: 330px; object-fit: cover; object-position: center 85%; margin: 0px 30px 0px 0px;&#34;/&gt;
-&lt;figure&gt;
+&lt;/figure&gt;
 &lt;p&gt;I am a PhD student at the University of Tübingen, supervised by &lt;a href=&#34;https://claassenlab.github.io/people/manfred-claassen.html&#34;&gt;Prof. Dr. Manfred Claassen&lt;/a&gt; and &lt;a href=&#34;http://orvi.altervista.org/&#34;&gt;Dr. Antonio Orvieto&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My research lies in the intersection of deep learning and single-cell biology, with a specific focus on developing statistical methods to address challenges in healthcare.&lt;/p&gt;
 &lt;p&gt;Prior to my PhD, I obtained my Master&amp;rsquo;s and Bachelor&amp;rsquo;s degree in Mathematics and Statistics from Keble College, University of Oxford.&lt;/p&gt;</description>
@@ -77,7 +77,8 @@ The slides (extracting from the report) are used to present findings and propose
       <guid>https://wenjie-fan.github.io/misc/</guid>
       <description>&lt;hr&gt;
 &lt;h3 id=&#34;latent-dirichlet-allocation-via-gibbs-sampling&#34;&gt;Latent Dirichlet Allocation via Gibbs sampling&lt;/h3&gt;
-&lt;p&gt;Latent Dirichlet Allocation (LDA) is a classic model for topic modelling, which often appears in natural language processing. The model can also be extended to analyse, for example, transcriptomics data. Below is an implementation via a Gibbs sampler, tested on a corpus of short articles. This Markov chain Monte Carlo (MCMC) approach was proposed by Thomas L. Griffiths and Mark Steyvers in their paper &amp;ldquo;Finding scientific topics&amp;rdquo;. &lt;/p&gt;</description>
+&lt;p&gt;Latent Dirichlet Allocation (LDA) is a classic model for topic modelling, which often appears in natural language processing. The model can also be extended to analyse, for example, transcriptomics data. Below is an implementation via a Gibbs sampler, tested on a corpus of short articles. This Markov chain Monte Carlo (MCMC) approach was proposed by Thomas L. Griffiths and Mark Steyvers in their paper &amp;ldquo;Finding scientific topics&amp;rdquo;.
+&lt;a href=&#34;https://wenjie-fan.github.io/LDA_CG.html&#34;&gt;&lt;span style=&#34;display:inline-block;background-color:rgb(180,180,180);color:white;padding:0px 10px;border-radius:4px;&#34;&gt;&lt;font size=&#39;3&#39;&gt;HTML&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

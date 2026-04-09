@@ -18,7 +18,7 @@ weight: 5
 <br/>
 <figure>
     <img align="right" src="emPPCA.jpg" style="width: 340px; margin: 0px 0px 5px 20px;" class="img_floats" />
-<figure>
+</figure>
 
 Principal component analysis (PCA) is frequently used for the visualization and unsupervised clustering of mass spectrometry (MS) proteomics data. However, there is no intuitive method to handle missing values, and the intricate structure of experimental design is often neglected. A typical example is data from biological experiments with replicate structure, which displays both variations and correlations among replicates, and suffers from incomplete observations. Probabilistic principal component analysis (PPCA) recovers missing values soundly within a probabilistic framework, yet it still overlooks the replicate-wise variations. 
 

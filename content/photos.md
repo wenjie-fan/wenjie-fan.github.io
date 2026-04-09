@@ -162,11 +162,3 @@ cover:
 {{< figure align=center src="2022/Pompidou.jpeg">}}
 <figcaption align = "right"><h6> Pompidou, Paris </h6></figcaption>
 </figure>
-
-<br/>
-
-<figure>
-{{< figure align=center src="2022/Make_up.JPG">}}
-<figcaption align = "right"><h6> 🤍 </h6></figcaption>
-</figure>
-

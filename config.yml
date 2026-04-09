@@ -41,7 +41,7 @@ languages:
         profileMode:
           enabled: true
           title: Wenjie Fan
-          subtitle: "Final-year Mathematics & Statistics @ Oxford"
+          subtitle: "PhD Student @ Tübingen · ML & CompBio"
           imageUrl: "konstanz_self.JPG"
           imageTitle:
           imageWidth: 200

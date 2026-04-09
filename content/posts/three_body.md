@@ -19,7 +19,7 @@ weight: 20
 <br/>
 <figure>
     <img align="right" src="three_body.gif" style="width: 330px; margin: 0px 0px 5px 20px;" class="img_floats" />
-<figure>
+</figure>
 
 The three-body problem is one of the most well-known problems in classic mechanics, which has no closed form solutions. However, when we assume that the third body is much smaller in mass than the other stars, it would be much easier for us to investigate more properties including the trajectory.
 <br/> <br/>

@@ -13,7 +13,6 @@ showToc: false
 TocOpen: false 
 disableShare: true 
 showbreadcrumbs: false
-draft: false
 cover:
     image: ""
     caption: ""
@@ -26,7 +25,7 @@ editor_options:
 
 <figure>
 <img src="self2.jpg" class="img_floats" align="left" style="width: 260px; height: 330px; object-fit: cover; object-position: center 85%; margin: 0px 30px 0px 0px;"/>
-<figure>
+</figure>
 
 I am a PhD student at the University of Tübingen, supervised by [Prof. Dr. Manfred Claassen](https://claassenlab.github.io/people/manfred-claassen.html) and [Dr. Antonio Orvieto](http://orvi.altervista.org/). 
 

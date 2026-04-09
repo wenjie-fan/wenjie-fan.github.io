@@ -17,7 +17,7 @@ weight: 9
 <br/>
 <figure>
     <img align="right" src="polymer.gif" style="width: 330px; margin: 0px 0px 5px 20px;" class="img_floats" />
-<figure>
+</figure>
 
 Imagine stretching a long strip of PET, often the plastic deformation is violent, and the sample just breaks. <br/> <br/>
 However, sometimes the film can be stretched for more than 2 times in length, and the stress actually oscillates. The obvious manifestation is a pattern consists of opaque and translucent stripes, shown as the gif on the right. This region is what we called "neck", which has smaller width and thickness than the undeformed part. Our main purpose is to predict the stress-strain curve when stretching a polymer film, as well as for which parameters there will be such an oscillation.

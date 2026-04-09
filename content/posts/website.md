@@ -19,7 +19,7 @@ weight: 10
 <br/>
 <figure>
     <img align="right" src="Boarder.gif" style="width: 230px; margin: 0px 0px 5px 20px;" class="img_floats" />
-<figure>
+</figure>
 
 Unlike dynamic sites, static websites are easier to build and maintain. In construction, one uses MarkDown files for pages, and YAML for configuration files. Some of the codes require HTML, e.g. adjusting the images. Hugo will generates all the files into HTML for publish. After construction, one needs deployment to publish, either by GitHub page, or services like Netlify. Static websites would be troublesome in updating, or realising some functions such as ecommerce. However, it's enough and suitable for building personal pages or academic pages. 
 <br/> <br/>
