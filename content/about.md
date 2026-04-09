@@ -28,7 +28,7 @@ editor_options:
 <img src="self2.jpg" class="img_floats" align="left" style="width: 260px; height: 330px; object-fit: cover; object-position: center 85%; margin: 0px 30px 0px 0px;"/>
 <figure>
 
-I am a PhD student at the University of Tübingen, supervised by Prof. Dr. Manfred Claassen and Dr. Antonio Orvieto. 
+I am a PhD student at the University of Tübingen, supervised by [Prof. Dr. Manfred Claassen](https://claassenlab.github.io/people/manfred-claassen.html) and [Dr. Antonio Orvieto](http://orvi.altervista.org/). 
 
 My research lies in the intersection of deep learning and single-cell biology, with a specific focus on developing statistical methods to address challenges in healthcare. 
 
